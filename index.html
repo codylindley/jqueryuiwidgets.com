@@ -15,6 +15,9 @@
 <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
 <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap-theme.min.css">
 <style type="text/css" media="screen">
+    table thead tr{
+        background-color: #fff;
+    }
 	.txtAlignCenter{
 		text-align: center;
 		background-color: #f6f6f6;
@@ -30,7 +33,7 @@
 		<dd>Pointless because each frameworks are not consistent about what is a a widget and what is a category of wigets. For example, animations might be consider 1 widget in X solution and 10 widgets in Y solution.</dd>
 	</dl>
 
-    <table class="table table-bordered">
+    <table class="table table-bordered table-hover">
     <thead>
         <tr>
             <th></th>
@@ -584,6 +587,13 @@
         </tr>
       </tbody>
     </table>
+    
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="bower_components/StickyTableHeaders/js/jquery.stickytableheaders.min.js"></script>
+    <script>
+        $('table').stickyTableHeaders();
+    </script>
 
 </body>
 </html>
