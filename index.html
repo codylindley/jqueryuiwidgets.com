@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>jQuery UI Widgets Comparison</title>
+<meta charset="utf-8">
+<meta name="description" content="">
+<meta name="author" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!--[if lt IE 9]>
+<script src="//cdn.jsdelivr.net/html5shiv/3.7.2/html5shiv.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+
+<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap-theme.min.css">
+<style type="text/css" media="screen">
+	table tbody tr th {
+		font-weight: normal;
+	}
+	.txtAlignCenter{
+		text-align: center;
+		background-color: #f6f6f6;
+	}
+</style>
+</head>
+<body style="margin:50px;">
+
+	<h5>FAQ</h5>
+
+	<dl style="max-width:600px">
+		<dt>Why don't you compare total number of widgets?</dt>
+		<dd>Pointless because each frameworks are not consistent about what is a a widget and what is a category of wigets. For example, animations might be consider 1 widget in X solution and 10 widgets in Y solution.</dd>
+	</dl>
+
+    <table class="table table-bordered">
+    <thead>
+        <tr>
+            <th></th>
+            <th scope="col"><a href="http://www.igniteui.com/" target="_blank">Ignite UI</a></th>
+            <th scope="col"><a href="http://www.jeasyui.com/" target="_blank">jQuery EasyUI</a></th>
+            <th scope="col"><a href="http://jqueryui.com/" target="_blank">jQuery UI</a></th>
+            <th scope="col"><a href="http://www.jqwidgets.com/" target="_blank">jQWidgets</a></th>
+            <th scope="col"><a href="http://www.telerik.com/kendo-ui" target="_blank">Kendo UI</a></th>
+            <th scope="col"><a href="http://www.syncfusion.com/products/javascript/controls" target="_blank">Syncfusion JavaScript</a></th>
+            <th scope="col"><a href="http://w2ui.com/web/" target="_blank">w2ui</a></th>
+            <th scope="col"><a href="http://webix.com/" target="_blank">Webix</a></th>
+            <th scope="col"><a href="http://wijmo.com/" target="_blank">Wijmo</a></th>
+            <th scope="col"><a href="http://zinoui.com/j" target="_blank">ZinoUI</a></th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+			<td colspan="11" class="txtAlignCenter"><h5>General Comparison:</h5></td>
+        </tr>
+        <tr>
+            <th scope="row">Cost</th>
+            <td>U.S. $ 899.00 - 1,399.00</td>
+            <td>U.S. $ 449.00</td>
+            <td>free</td>
+            <td>U.S. 199.00 - 899.00</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <th scope="row">Accessibility / WAI-ARIA</th>
+            <td><span class="glyphicon glyphicon-adjust"></span> <a href="http://help.infragistics.com/Help/Doc/jQuery/2014.1/CLR4.0/html/Accessibility_Compliance.html" target="_blank">details</a></td>
+            <td><span class="glyphicon glyphicon-remove"></td>
+            <td><span class="glyphicon glyphicon-ok"></span></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <th scope="row">100% Open Source</th>
+            <td><span class="glyphicon glyphicon-remove"></span></td>
+            <td><span class="glyphicon glyphicon-remove"></span></td>
+            <td><span class="glyphicon glyphicon-ok"></span></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <th scope="row">Partially Open Source</th>
+            <td><span class="glyphicon glyphicon-remove"></span></td>
+            <td><span class="glyphicon glyphicon-remove"></span></td>
+            <td><span class="glyphicon glyphicon-remove"></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <th scope="row">GPL License Available</th>
+            <td><span class="glyphicon glyphicon-remove"></span></td>
+            <td><span class="glyphicon glyphicon-ok"></span></td>
+            <td><span class="glyphicon glyphicon-remove"></span></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <th scope="row">Creative Commons</th>
+            <td><span class="glyphicon glyphicon-remove"></span></td>
+            <td><span class="glyphicon glyphicon-remove"></span></td>
+            <td><span class="glyphicon glyphicon-remove"></span></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <th scope="row">Apache License Available</th>
+            <td><span class="glyphicon glyphicon-remove"></span></td>
+            <td><span class="glyphicon glyphicon-remove"></span></td>
+            <td><span class="glyphicon glyphicon-remove"></span></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <th scope="row">MIT License Available</th>
+            <td><span class="glyphicon glyphicon-remove"></span></td>
+            <td><span class="glyphicon glyphicon-remove"></span></td>
+            <td><span class="glyphicon glyphicon-ok"></span></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <th scope="row">Dependencies</th>
+            <td>jQuery, jQuery UI</td>
+            <td>jQuery</td>
+            <td>jQuery</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <th scope="row">Firefox</th>
+            <td>3.0+</td>
+            <td>?</span></td>
+            <td>Firefox: (Current - 1) or Current</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <th scope="row">IE</th>
+            <td>IE 6+</td>
+            <td>?</span></td>
+            <td>IE 8+</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <th scope="row">Safari</th>
+            <td>Safari 3.2+</td>
+            <td>?</span></td>
+            <td>Safari: 5.1+</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <th scope="row">Chrome</th>
+            <td>2.0+</td>
+            <td>?</span></td>
+            <td>Chrome: (Current - 1) or Current</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <th scope="row">Opera</th>
+            <td>latest</td>
+            <td>?</span></td>
+            <td>Opera: 12.1x, (Current - 1) or Current</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <th scope="row">Total JS size (not including dependencies, from CDN or min file)</th>
+            <td>59 KB</td>
+            <td>79.7 KB</td>
+            <td>76.7 KB</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <th scope="row">Total CSS size (includes theme if required)</th>
+            <td>19.6 KB + 11.9 KB</td>
+            <td>7.5 KB</td>
+            <td>6.8 KB</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <th scope="row">Supported Mobile Browsers</th>
+            <td>iPhone, Android &amp; Windows Phone (can't find versions)</td>
+            <td><span class="glyphicon glyphicon-remove"></span></td>
+            <td><span class="glyphicon glyphicon-remove"></span></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <th scope="row">Data Attribute Initialization / Declarative Initialization</th>
+            <td><span class="glyphicon glyphicon-remove"></span></td>
+            <td><span class="glyphicon glyphicon-ok"></span></td>
+            <td><span class="glyphicon glyphicon-remove"></span></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <th scope="row">Compatible With Touch Devices (aka adaptive widgets)</th>
+            <td><span class="glyphicon glyphicon-ok"></span></td>
+            <td><span class="glyphicon glyphicon-remove"></span></td>
+            <td><span class="glyphicon glyphicon-remove"></span></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <th scope="row">Contains Specific Mobile Widgets</th>
+            <td><span class="glyphicon glyphicon-ok"></span></td>
+            <td><span class="glyphicon glyphicon-remove"></span></td>
+            <td><span class="glyphicon glyphicon-adjust"></span> <a href="http://jquerymobile.com/">details</a></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <th scope="row">Has Framework/Application Tool Offerings</th>
+            <td><span class="glyphicon glyphicon-ok"></span></td>
+            <td><span class="glyphicon glyphicon-remove"></span></td>
+            <td><span class="glyphicon glyphicon-remove"></span></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <th scope="row">Localization</th>
+            <td>English, Japanese, Russian, Bulgarian, German, French, Spanish</td>
+            <td>af, bg, ca, cs, cz, da, de, en, es, fr, nl, tr, zh_CN, zh_TW</td>
+            <td><a href="https://github.com/jquery/jquery-ui/tree/master/ui/i18n">i18n</a> moving to <a href="https://github.com/jquery/globalize">globalize</a></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <th scope="row">Contains Specific Data Visualization Widgets</th>
+            <td><span class="glyphicon glyphicon-ok"></span></td>
+            <td><span class="glyphicon glyphicon-remove"></span></td>
+            <td><span class="glyphicon glyphicon-remove"></span></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+         <tr>
+            <th scope="row">AMD Compatible</th>
+            <td><span class="glyphicon glyphicon-remove"></span></td>
+            <td><span class="glyphicon glyphicon-remove"></span></td>
+            <td><span class="glyphicon glyphicon-ok"></span></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <th scope="row">CommonJS Compatible</th>
+            <td><span class="glyphicon glyphicon-remove"></span></td>
+            <td><span class="glyphicon glyphicon-remove"></td>
+            <td><span class="glyphicon glyphicon-remove"></span></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <th scope="row">UMD Compatible</th>
+            <td><span class="glyphicon glyphicon-remove"></span></td>
+            <td><span class="glyphicon glyphicon-remove"></td>
+            <td><span class="glyphicon glyphicon-ok"></span></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <th scope="row">ES6 Modules Compatible</th>
+            <td><span class="glyphicon glyphicon-remove"></span></td>
+            <td><span class="glyphicon glyphicon-remove"></td>
+            <td><span class="glyphicon glyphicon-remove"></span></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <th scope="row">Individual Demos For Each Widget</th>
+            <td><span class="glyphicon glyphicon-ok"></span></td>
+            <td><span class="glyphicon glyphicon-ok"></span></td>
+            <td><span class="glyphicon glyphicon-ok"></span></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <th scope="row">API Docs</th>
+            <td><span class="glyphicon glyphicon-ok"></span></td>
+            <td><span class="glyphicon glyphicon-ok"></span></td>
+            <td><span class="glyphicon glyphicon-ok"></span></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <th scope="row">Commercial Support</th>
+            <td><span class="glyphicon glyphicon-ok"></span></td>
+            <td><span class="glyphicon glyphicon-ok"></span></td>
+            <td><span class="glyphicon glyphicon-remove"></span></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <th scope="row">Developer Browser Extension</th>
+            <td><span class="glyphicon glyphicon-remove"></span></td>
+            <td><span class="glyphicon glyphicon-remove"></span></td>
+            <td><span class="glyphicon glyphicon-remove"></span></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <th scope="row">CDN</th>
+            <td><span class="glyphicon glyphicon-ok"></span></td>
+            <td><span class="glyphicon glyphicon-remove"></span></td>
+            <td><span class="glyphicon glyphicon-ok"></span></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <th scope="row">Individual Files</th>
+            <td>?</span></td>
+            <td><span class="glyphicon glyphicon-ok"></span></td>
+            <td><span class="glyphicon glyphicon-ok"></span></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <th scope="row">Custom Build Tools</th>
+            <td><span class="glyphicon glyphicon-ok"></span></td>
+            <td><span class="glyphicon glyphicon-remove"></span></td>
+            <td><span class="glyphicon glyphicon-ok"></span></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <th scope="row">Bower.io Package</th>
+            <td><span class="glyphicon glyphicon-remove"></span></td>
+            <td><span class="glyphicon glyphicon-remove"></span></td>
+            <td><span class="glyphicon glyphicon-ok"></span></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <th scope="row">Bootstrap Theme</th>
+            <td><span class="glyphicon glyphicon-remove"></span></td>
+            <td><span class="glyphicon glyphicon-ok"></span></td>
+            <td><span class="glyphicon glyphicon-remove"></span></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+			<td colspan="11" class="txtAlignCenter"><h5>Widget Comparison:</h5></td>
+        </tr>
+        <tr>
+            <th scope="row">Type of Widget</th>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+			<td colspan="11" class="txtAlignCenter"><h5>Mobile Widget Comparison:</h5></td>
+        </tr>
+        <tr>
+            <th scope="row">Type of Mobile Widget</th>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+			<td colspan="11" class="txtAlignCenter"><h5>Data Widget Comparison:</h5></td>
+        </tr>
+        <tr>
+            <th scope="row">Type of Data Widget</th>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+			<td colspan="11" class="txtAlignCenter"><h5>Application Tools Comparison:</h5></td>
+        </tr>
+        <tr>
+            <th scope="row">Type of Tool</th>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+      </tbody>
+    </table>
+
+</body>
+</html>
