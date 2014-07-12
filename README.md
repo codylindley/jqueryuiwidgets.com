@@ -1,1 +1,1 @@
-jQuery UI Widgets Comparison Tables: [jquerywidgets.com](http://jqueryuiwidgets.com/)
+jQuery UI Widgets Comparison Tables: [jqueryuiwidgets.com](http://jqueryuiwidgets.com/)
