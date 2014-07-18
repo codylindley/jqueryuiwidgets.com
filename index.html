@@ -31,12 +31,21 @@
     tr:hover .glyphicon-ok{
         color:green;
     }
+
+    dt{
+        float: left;
+        width: 300px;
+    }
+    dd{
+        float: left;
+        width: 600px;
+        margin-bottom:50px;
+    }
 </style>
 </head>
 <body style="margin:50px;">
 
-<p style="text-align:center"><iframe src="http://ghbtns.com/github-btn.html?user=codylindley&repo=jqueryuiwidgets.com&type=fork"
-  allowtransparency="true" frameborder="0" scrolling="0" width="62" height="20"></iframe></p>
+<p style="text-align:center"><iframe src="http://ghbtns.com/github-btn.html?user=codylindley&repo=jqueryuiwidgets.com&type=fork" allowtransparency="true" frameborder="0" scrolling="0" width="62" height="20"></iframe></p>
 
     <table class="table table-bordered table-hover">
     <thead>
@@ -61,7 +70,7 @@
         <tr>
             <th scope="row">Firefox</th>
             <td>3.0+</td>
-            <td>?</span></td>
+            <td>?</td>
             <td>(Current - 1) or Current</td>
             <td>2.0+</td>
             <td>Latest and Extended Support Release (ESR)</td>
@@ -74,7 +83,7 @@
         <tr>
             <th scope="row">IE</th>
             <td>6+</td>
-            <td>?</span></td>
+            <td>?</td>
             <td>8+</td>
             <td>7+</td>
             <td>7+</td>
@@ -87,7 +96,7 @@
         <tr>
             <th scope="row">Safari</th>
             <td>3.2+</td>
-            <td>?</span></td>
+            <td>?</td>
             <td>5.1+</td>
             <td>3+</td>
             <td>4+</td>
@@ -100,7 +109,7 @@
         <tr>
             <th scope="row">Chrome</th>
             <td>2.0+</td>
-            <td>?</span></td>
+            <td>?</td>
             <td>(Current - 1) or Current</td>
             <td>latest</td>
             <td>latest</td>
@@ -113,7 +122,7 @@
         <tr>
             <th scope="row">Opera</th>
             <td>latest</td>
-            <td>?</span></td>
+            <td>?</td>
             <td>12.1x, (Current - 1) or Current</td>
             <td>latest</td>
             <td>10+</td>
@@ -153,7 +162,7 @@
             <td>$59 (Up to 5 developers)</td>
         </tr>
         <tr>
-            <th scope="row">Commercial Support</th>
+            <th scope="row">Official Commercial Support</th>
             <td><span class="glyphicon glyphicon-ok"></span></td>
             <td><span class="glyphicon glyphicon-ok"></span></td>
             <td><span class="glyphicon glyphicon-remove"></span></td>
@@ -231,7 +240,7 @@
             <td><span class="glyphicon glyphicon-ok"></span></td>
         </tr>
         <tr>
-            <th scope="row">Server Side Wrappers</th>
+            <th scope="row">Official Server Side Wrappers</th>
             <td>ASP.NET MVC</td>
             <td><span class="glyphicon glyphicon-remove"></td>
             <td><span class="glyphicon glyphicon-remove"></td>
@@ -283,7 +292,7 @@
             <td><span class="glyphicon glyphicon-remove"></span></td>
         </tr>
         <tr>
-            <th scope="row">Has Front-end Framework/Application Tool Offerings</th>
+            <th scope="row">Has Official Front-end Framework/Application Tool Offerings</th>
             <td><span class="glyphicon glyphicon-ok"></span></td>
             <td><span class="glyphicon glyphicon-remove"></span></td>
             <td><span class="glyphicon glyphicon-remove"></span></td>
@@ -374,7 +383,7 @@
             <td><span class="glyphicon glyphicon-remove"></span></td>
         </tr>
         <tr>
-            <th scope="row">Public CDN</th>
+            <th scope="row">Official Public CDN</th>
             <td><span class="glyphicon glyphicon-ok"></span></td>
             <td><span class="glyphicon glyphicon-remove"></span></td>
             <td><span class="glyphicon glyphicon-ok"></span></td>
@@ -413,7 +422,7 @@
             <td><span class="glyphicon glyphicon-remove"></span></td>
         </tr>
         <tr>
-            <th scope="row">Bower.io Package</th>
+            <th scope="row">Official Bower.io Package</th>
             <td><span class="glyphicon glyphicon-remove"></span></td>
             <td><span class="glyphicon glyphicon-remove"></span></td>
             <td><span class="glyphicon glyphicon-ok"></span> <a href="https://github.com/jquery/jquery-ui/blob/master/bower.json">details</a></td>
@@ -426,7 +435,7 @@
             <td><span class="glyphicon glyphicon-remove"></span></td>
         </tr>
         <tr>
-            <th scope="row">Nuget Package</th>
+            <th scope="row">Official Nuget Package</th>
             <td>?</td>
             <td>?</td>
             <td>?</td>
@@ -439,7 +448,7 @@
             <td>?</td>
         </tr>
         <tr>
-            <th scope="row">Bootstrap Theme</th>
+            <th scope="row">Official Bootstrap Theme</th>
             <td><span class="glyphicon glyphicon-remove"></span></td>
             <td><span class="glyphicon glyphicon-ok"></span></td>
             <td><span class="glyphicon glyphicon-remove"></span></td>
@@ -497,7 +506,7 @@
 			<td colspan="11" class="txtAlignCenter"><h5>Widget Comparison:</h5></td>
         </tr>
         <tr>
-            <th scope="row">Type of Widget</th>
+            <th scope="row">Grid</th>
             <td></td>
             <td></td>
             <td></td>
@@ -578,9 +587,12 @@
 
     <h5>FAQ</h5>
 
-    <dl style="max-width:600px">
+    <dl>
         <dt>Why don't you compare total number of widgets?</dt>
         <dd>Pointless because each framework is not consistent about what is a widget and what is a category of widgets. For example, animations might be consider 1 widget in X solution and 10 widgets in Y solution.</dd>
+        <div style="clear:both"></div>
+        <dt>Why do you only consider official components?</dt>
+        <dd>It's typically only official aspects of a solution that remain updated and relevant. Therefore I do draw a line here in this data between official and unofficial parts of a solution. Additionally, when an organization accepts a technology the risk involved with multiple third party sources is typically unacceptable. This is why official support for official parts is a critical dividing line for enterprise organizations selecting development aids.</dd>
     </dl>
     
     <script src="bower_components/jquery/dist/jquery.min.js"></script>
