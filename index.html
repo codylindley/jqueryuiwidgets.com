@@ -171,10 +171,10 @@
             <td>jQuery 1.7.1+ (recommended v1.10.2), JQuery <a href="https://github.com/jquery/globalize">Globalize</a>, JS Render, JQuery Easing</td>
             <td>jQuery 1.10.2, <a href="https://github.com/jquery/globalize">Globalize</a></td>
             <td>jQuery 2.0.2</td>
-            <td>none</td>
+            <td>optional</td>
             <td>jQuery 1.11.1, jQuery UI 1.11.0, <a href="https://github.com/jquery/globalize">Globalize</a></td>
             <td>jQuery 1.10.1</td>
-            <td>jQuery version 2.1.1 (but 1.11.1 for IE 8)</td>
+            <td>jQuery version 2.1.1 (but 1.11.1 for IE 8), <a href="https://github.com/jquery/globalize">Globalize</a></td>
         </tr>
         <tr>
 			<td colspan="13" class="txtAlignCenter"><h5>General Comparison:</h5></td>
@@ -192,7 +192,7 @@
             <td>$469</td>
             <td>$495</td>
             <td>$59 (Up to 5 developers)</td>
-            <td>499.99</td>
+            <td>$499</td>
         </tr>
         <tr>
             <th scope="row">100% Open Source for any type of use</th>
@@ -390,51 +390,6 @@
             <td><span class="glyphicon glyphicon-remove"></span></td>
         </tr>
         <tr>
-            <th scope="row">CommonJS Compatible</th>
-            <td><span class="glyphicon glyphicon-remove"></span></td>
-            <td><span class="glyphicon glyphicon-remove"></span></td>
-            <td><span class="glyphicon glyphicon-remove"></span></td>
-            <td><span class="glyphicon glyphicon-remove"></td>
-            <td><span class="glyphicon glyphicon-remove"></span></td>
-            <td><span class="glyphicon glyphicon-remove"></td>
-             <td><span class="glyphicon glyphicon-remove"></span></td>
-            <td><span class="glyphicon glyphicon-remove"></span></td>
-            <td><span class="glyphicon glyphicon-remove"></span></td>
-            <td><span class="glyphicon glyphicon-remove"></span></td>
-            <td><span class="glyphicon glyphicon-remove"></span></td>
-            <td><span class="glyphicon glyphicon-remove"></span></td>
-        </tr>
-        <tr>
-            <th scope="row">UMD Compatible</th>
-            <td><span class="glyphicon glyphicon-remove"></span></td>
-            <td><span class="glyphicon glyphicon-remove"></span></td>
-            <td><span class="glyphicon glyphicon-ok"></span></td>
-            <td><span class="glyphicon glyphicon-remove"></td>
-            <td><span class="glyphicon glyphicon-remove"></span></td>
-            <td><span class="glyphicon glyphicon-remove"></td>
-            <td><span class="glyphicon glyphicon-remove"></span></td>
-            <td><span class="glyphicon glyphicon-remove"></span></td>
-            <td><span class="glyphicon glyphicon-remove"></span></td>
-            <td><span class="glyphicon glyphicon-remove"></span></td>
-            <td><span class="glyphicon glyphicon-remove"></span></td>
-            <td><span class="glyphicon glyphicon-remove"></span></td>
-        </tr>
-        <tr>
-            <th scope="row">ES6 Modules Compatible</th>
-            <td><span class="glyphicon glyphicon-remove"></span></td>
-            <td><span class="glyphicon glyphicon-remove"></span></td>
-            <td><span class="glyphicon glyphicon-remove"></span></td>
-            <td><span class="glyphicon glyphicon-remove"></td>
-            <td><span class="glyphicon glyphicon-remove"></span></td>
-            <td><span class="glyphicon glyphicon-remove"></td>
-            <td><span class="glyphicon glyphicon-remove"></span></td>
-            <td><span class="glyphicon glyphicon-remove"></span></td>
-            <td><span class="glyphicon glyphicon-remove"></span></td>
-            <td><span class="glyphicon glyphicon-remove"></span></td>
-            <td><span class="glyphicon glyphicon-remove"></span></td>
-            <td><span class="glyphicon glyphicon-remove"></span></td>
-        </tr>
-        <tr>
             <th scope="row">Official Developer Browser Extension</th>
             <td><span class="glyphicon glyphicon-remove"></span></td>
             <td><span class="glyphicon glyphicon-remove"></span></td>
@@ -615,7 +570,7 @@
             <td><span class="glyphicon glyphicon-remove"></span></td>
         </tr>
         <tr>
-            <th scope="row">Forum posts</th>
+            <th scope="row"># of Forum posts</th>
             <td>2699</td>
             <td>5707</td>
             <td>22,146</td>
@@ -663,7 +618,7 @@
             <td colspan="13" class="txtAlignCenter"><h5>Mobile/Tablet Comparison:</h5></td>
         </tr>
         <tr>
-            <th scope="row">Mobile Widgets (must be phone/tablet specific/first)</th>
+            <th scope="row">Offers Mobile Widgets (must be phone/tablet specific/first)</th>
             <td><span class="glyphicon glyphicon-ok"></span></td>
             <td><span class="glyphicon glyphicon-remove"></span></td>
             <td><span class="glyphicon glyphicon-adjust"></span> <a href="http://jquerymobile.com/">via jQuery Mobile</a></td>
@@ -797,7 +752,7 @@
     <script>
         $('table').stickyTableHeaders();
 
-        var allCells = $("td, th");
+        var allCells = $("td:not(.txtAlignCenter), th");
 
         allCells
           .on("mouseover", function() {
